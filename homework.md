@@ -26,13 +26,13 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
  SELECT * FROM movies;
 
 2.  Return ONLY the name column from the 'people' table
-SELECT title FROM movies;
+SELECT name FROM people;
 
 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
 UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 
 4.  Return ONLY your name from the 'people' table.
-SELECT * FROM people WHERE id = 11;
+SELECT name FROM people WHERE id = 11;
 
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 DELETE FROM movies WHERE title = 'Batman Begins';

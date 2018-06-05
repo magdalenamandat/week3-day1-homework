@@ -60,7 +60,7 @@ DELETE FROM people WHERE name = 'Magdalena Kisala';
 -- DELETE FROM people WHERE name = 'Emily Milne';
 -- INSERT INTO people (name) VALUES ('Zsolt Podoba-Szalai');
 -- DELETE FROM movies WHERE title = 'Batman Begins';
--- SELECT * FROM people WHERE id = 11;
+-- SELECT name FROM people WHERE id = 11;
 -- UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 -- SELECT title FROM movies;
 SELECT * FROM movies;
